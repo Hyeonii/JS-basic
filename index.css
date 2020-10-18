@@ -1,18 +1,25 @@
 body {
-  font-family: "Roboto";
+  font-family: Helvetica;
   background-color: #2c3e50;
   text-align: center;
+  height: 80vh;
 }
 
 h1 {
   color: white;
   padding-top: 100px;
-  font-size: 150px;
+  font-size: 130px;
   margin-bottom: 20px;
 }
 
-.btn {
+button {
   cursor: pointer;
+  background: transparent;
+  border-style: none;
+}
+
+button:active {
+  outline: none;
 }
 
 .clicked {
@@ -21,7 +28,7 @@ h1 {
 
 input {
   margin-bottom: 10px;
-  padding: 10px 40px;
+  padding: 8px 40px;
   border-radius: 10px;
   border-style: none;
   text-align: center;
@@ -35,7 +42,7 @@ input:focus {
 
 h3 {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .form,
@@ -45,12 +52,22 @@ h3 {
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
-  padding: 5px 0;
-  font-size: 40px;
+  padding: 8px 0;
+  font-size: 32px;
 }
 
 span {
   color: white;
+}
+
+.todo-list {
+  margin: 10px 0 25px 0;
+}
+
+ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .showing {

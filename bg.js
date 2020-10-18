@@ -9,13 +9,13 @@ function paintImage(imgNumber) {
   body.prepend(image);
 }
 
-function genRandom() {
+function getRandom() {
   const number = Math.floor(Math.random() * IMG_NUMBER);
   return number;
 }
 
 function init() {
-  const randomNumber = genRandom();
+  const randomNumber = getRandom();
   paintImage(randomNumber);
 }
 
